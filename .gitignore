@@ -1,0 +1,8 @@
+echo "__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+*.egg-info/" > .gitignore
+git add .gitignore
+git commit -m "chore: add gitignore"
+git push
